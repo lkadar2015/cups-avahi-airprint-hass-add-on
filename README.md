@@ -1,1 +1,1 @@
-# cups-avahi-airprint-hass-add-on
+# hass-add-ons
