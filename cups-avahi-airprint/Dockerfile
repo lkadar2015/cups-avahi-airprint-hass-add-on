@@ -23,7 +23,7 @@ RUN apk add --update cups \
 	build-base \
 	wget \
 	rsync
-RUN pip3 --no-cache-dir install --upgrade pip
+# RUN pip3 --no-cache-dir install --upgrade pip
 RUN pip3 install pycups
 RUN rm -rf /var/cache/apk/*
 
